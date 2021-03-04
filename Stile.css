@@ -1,0 +1,138 @@
+body {
+  font-family: Roboto;
+}
+.heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #2f3132;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #2f3132;
+  margin-bottom: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.text_margin {
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.top {
+  background: #e0e1e2;
+  padding-top: 25px;
+  padding-bottom: 48px;
+}
+
+.top_text-margin {
+  margin-left: 59px;
+  margin-right: 59px;
+}
+
+.top_img {
+  margin-top: 94px;
+  height: 230px;
+  background-image: url(img/MX-Master\ 1.png);
+  background-size: contain;
+  margin-bottom: 41px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top_arrow {
+  margin-top: 40px;
+}
+
+.bluetooth {
+  background: #ededed;
+  padding-top: 42px;
+  padding-bottom: 22px;
+}
+
+.bluetooth_icon {
+  margin-bottom: 27px;
+}
+
+.bluetooth_heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  margin-top: 31px;
+}
+
+.bluetooth_img {
+  height: 218px;
+  background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.info {
+  padding-top: 70px;
+  padding-bottom: 77px;
+}
+
+.info_item {
+  border: 1px solid #2f3132;
+  flex-basis: 166px;
+  min-height: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info_content {
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.info_heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #2f3132;
+}
+
+.info_text {
+  margin-right: 65px;
+  margin-left: 65px;
+}
+
+.info_content {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.info_item-heading {
+  margin-bottom: 5px;
+}
+
+.carousel {
+  margin-bottom: 100px;
+}
