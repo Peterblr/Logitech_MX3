@@ -35,6 +35,17 @@ body {
   margin-left: 34px;
   margin-right: 34px;
 }
+.text_flow {
+  margin-bottom: 16px;
+  text-emphasis: left;
+  width: 224px;
+}
+
+.text_settings {
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 11px;
+}
 
 .top {
   background: #e0e1e2;
@@ -135,4 +146,71 @@ body {
 
 .carousel {
   margin-bottom: 100px;
+}
+
+.flow {
+  padding-top: 70px;
+  padding-bottom: 218px;
+  background-image: url(img/flow_img.png);
+  background-color: #ededed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.flow_ol {
+  margin-top: 36px;
+  padding-left: 54px;
+}
+
+.settings {
+  padding-top: 70px;
+  background: #ededed;
+}
+
+.settings_slider {
+  margin: 35px 22px 95px 22px;
+}
+
+.settings_content {
+  background: #c4c4c4;
+  padding: 23px 22px 26px 29px;
+}
+
+.settings_icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mouse_text {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.mouse_img {
+  height: 310px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mouse_img_1 {
+  background-image: url(img/image\ 1.jpg);
+}
+
+.mouse_img_2 {
+  background-image: url(img/image\ 2.jpg);
+}
+
+.footer {
+  background: #2f3132;
+  height: 75px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 8px;
+  text-align: center;
+
+  color: #c7c8c8;
+  padding-top: 22px;
 }
