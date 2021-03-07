@@ -1,6 +1,7 @@
 body {
   font-family: Roboto;
 }
+
 .heading {
   font-style: normal;
   font-weight: 900;
@@ -21,9 +22,8 @@ body {
   margin-bottom: 0;
 }
 
-.head {
-  display: flex;
-  justify-content: center;
+.head__logo_white {
+  display: none;
 }
 
 .center-content {
@@ -47,9 +47,28 @@ body {
   margin-right: 11px;
 }
 
+.navbar {
+  padding-top: 25px;
+}
+
+.navbar-light .navbar-toggler {
+  position: absolute;
+  right: 25px;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  justify-content: center;
+}
+
 .top {
   background: #e0e1e2;
-  padding-top: 25px;
+
   padding-bottom: 48px;
 }
 
@@ -80,7 +99,7 @@ body {
 .bluetooth {
   background: #ededed;
   padding-top: 42px;
-  padding-bottom: 22px;
+  padding-bottom: 18px;
 }
 
 .bluetooth_icon {
@@ -99,7 +118,7 @@ body {
 }
 
 .bluetooth_img {
-  height: 218px;
+  height: 230px;
   background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -176,6 +195,10 @@ body {
   margin: 35px 22px 95px 22px;
 }
 
+.settings_slider_img {
+  display: none;
+}
+
 .settings_content {
   background: #c4c4c4;
   padding: 23px 22px 26px 29px;
@@ -221,7 +244,6 @@ body {
 
 @media (min-width: 768px) {
   .top {
-    padding-top: 54px;
     padding-bottom: 80px;
   }
 
@@ -229,6 +251,10 @@ body {
     margin-top: 159px;
     height: 514px;
     margin-bottom: 124px;
+  }
+
+  .navbar {
+    padding-top: 54px;
   }
 
   .head__logo {
@@ -354,8 +380,8 @@ body {
     height: 35px;
   }
   .heading_settings {
-    margin-left: 215px;
-    margin-right: 215px;
+    margin-left: 64px;
+    margin-right: 64px;
   }
 
   .text_settings_2 {
@@ -396,5 +422,268 @@ body {
     line-height: 16px;
     padding-top: 47px;
     height: 150px;
+  }
+}
+@media (min-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 583px);
+    padding-right: calc(50% - 583px);
+  }
+
+  .head {
+    background: #2f3132;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .head__logo_dark {
+    display: none;
+  }
+
+  .head__logo_white {
+    display: block;
+    width: 150px;
+  }
+
+  .heading {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 35px;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .navbar {
+    padding-top: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    border-bottom: 1px solid #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-item {
+    padding-right: 19px;
+    padding-left: 19px;
+    border-right: 1px solid #494949;
+  }
+
+  .nav-item:first-child {
+    padding-left: 0;
+  }
+
+  .nav-item:last-child {
+    padding-right: 0;
+    border: none;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .top_img {
+    margin-top: 20px;
+    height: 671px;
+    padding-top: 80px;
+    margin-bottom: 8px;
+  }
+
+  .top_arrow {
+    margin-top: 49px;
+  }
+
+  .bluetooth {
+    padding-bottom: 80px;
+  }
+
+  .bluetooth_img {
+    height: 427px;
+    background: url(img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png)
+        no-repeat 0 119px,
+      url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png)
+        no-repeat right 119px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .center_bluetooth {
+    padding-left: calc(50% - 622px);
+    padding-right: calc(50% - 622px);
+  }
+
+  .bluetooth_heading {
+    font-size: 96px;
+    line-height: 112px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bluetooth_heading_day_2 {
+    padding-top: 45px;
+  }
+
+  .bluetooth_heading_day {
+    font-size: 300px;
+    line-height: 352px;
+    padding-left: 74px;
+  }
+
+  .info {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .info_text {
+    width: 765px;
+    margin: auto;
+  }
+
+  *.info_item {
+    min-height: 140px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .info_item-heading {
+    margin-bottom: 5px;
+  }
+
+  .info_slider {
+    padding-right: calc(50% - 640px);
+    padding-left: calc(50% - 640px);
+  }
+
+  .text_info {
+    width: 765px;
+    margin: auto;
+  }
+
+  .flow {
+    padding-bottom: 870px;
+  }
+
+  .flow_center {
+    padding-left: calc(50% - 479px);
+    padding-right: calc(50% - 479px);
+  }
+
+  .flow_ol {
+    margin-left: 15px;
+  }
+
+  .settings {
+    padding-bottom: 100px;
+  }
+
+  .settings_slider {
+    display: none;
+  }
+
+  .settings_slider_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
+  }
+
+  .settings_content {
+    width: 749px;
+    margin: auto;
+  }
+
+  .text_settings_2 {
+    width: 958px;
+    margin: auto;
+  }
+
+  .mouse {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mouse_center {
+    padding-left: calc(50% - 655px);
+    padding-right: calc(50% - 655px);
+  }
+
+  .mouse_item {
+    height: 557px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mouse_text_1 {
+    padding-right: 217px;
+    order: 2;
+  }
+
+  .mouse_text_1 .heading {
+    text-align: left;
+  }
+
+  .mouse_text_1 .text {
+    text-align: left;
+  }
+
+  .mouse_text_2 {
+    padding-left: 217px;
+    order: 3;
+  }
+
+  .mouse_text_2 .heading {
+    text-align: right;
+  }
+
+  .mouse_text_2 .text {
+    text-align: right;
+  }
+
+  .mouse_img_1 {
+    order: 1;
+    background-image: url(img/image\ 1_new.png);
+  }
+
+  .mouse_img_2 {
+    order: 4;
+    background-image: url(img/image\ 2_new.png);
   }
 }
